@@ -1,0 +1,26 @@
+body {
+  background: #1f2335;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+#GameScreen {
+  border: 1px solid white;
+  box-shadow: rgba(17, 17, 17, 0.75) 0px 0px 12px 1px;
+}
+
+#earth {
+  box-shadow: rgb(86, 93, 197) 0px 0px 12px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+#sun {
+  box-shadow: rgb(255, 187, 0) 0px 0px 32px -8px;
+  position: absolute;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
